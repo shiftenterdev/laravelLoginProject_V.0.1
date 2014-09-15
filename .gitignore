@@ -1,0 +1,15 @@
+/bootstrap
+/vendor
+/public
+/app/commands
+/app/config
+/app/lang
+/app/start
+/app/tests
+/app/storage
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
