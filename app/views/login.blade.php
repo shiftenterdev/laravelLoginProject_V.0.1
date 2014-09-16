@@ -1,20 +1,17 @@
 @extends('layout')
 
 @section('content')
-    <h2>Registration Page</h2>
+    <h2>Login Page</h2>
 
-    {{Form::open(['url'=>'register'])}}
+    {{Form::open(['url'=>'login'])}}
 
-        {{Form::label("email","Email")}}
-        {{Form::text("email")}}
-<br/>
         {{Form::label("username","Username")}}
         {{Form::text("username")}}
 <br/>
         {{Form::label("password","Password")}}
         {{Form::text("password")}}
 <br/>
-        {{Form::submit("Sign Up")}}
+        {{Form::submit("Sign In")}}
 
 
     {{Form::close()}}
